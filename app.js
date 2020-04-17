@@ -41,8 +41,10 @@ function init(){
   scene.add(ambient);
 
   //directional
-
-
+  const light = new THREE.DirectionalLight(0xffffff, 2);
+  //set position
+  light.position.set(10, 10, 10);
+  scene.add(light);
 
   //RENDERER
   // set up renderer - add antialias object which blurs the edges of model to avoid pixelation
