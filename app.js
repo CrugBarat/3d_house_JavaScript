@@ -26,6 +26,21 @@ function init(){
   const far = 500;
 
   // set up camera vua three.min.js
-  camera = new THREE.PerspectiveCamera();
+  camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
+
+  // position of camera x, y, z - depends on model size
+  camera.position.set(-50, 40, 350);
+
+  // load model
+  let loader = new THREE.GLTF();
+
+  // gltf param in functions (from 3d_model) gives access to model data
+  loader.load('./3d_model/scene.glft', function(gltf) {
+
+    // add model to scene
+    scene.add(glft.scene);
+  });
+
+
 
 }
