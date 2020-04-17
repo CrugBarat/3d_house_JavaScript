@@ -1,4 +1,4 @@
-<img src="https://github.com/CrugBarat/my_files/blob/master/house1.png" width="300"> <img src="https://github.com/CrugBarat/my_files/blob/master/house2.png" width="300"> <img src="https://github.com/CrugBarat/my_files/blob/master/house3.png" width="300">
+<img src="https://github.com/CrugBarat/my_files/blob/master/house1.jpeg" width="300"> <img src="https://github.com/CrugBarat/my_files/blob/master/house2.jpeg" width="300"> <img src="https://github.com/CrugBarat/my_files/blob/master/house3.jpeg" width="300">
 
 # 3D House
 
