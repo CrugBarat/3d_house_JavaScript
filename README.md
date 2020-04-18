@@ -16,7 +16,16 @@ The model house rotates at a given speed around the z axis. The project uses [TH
 
 - Download the files
 
-- Open index.html in your browser
+- Close all browser windows
+
+- In Terminal run:
+
+```
+open /Applications/Google\ Chrome.app --args --allow-file-access-from-files
+
+```
+
+- In the new browser, open the project's index.html
 
 ---
 
